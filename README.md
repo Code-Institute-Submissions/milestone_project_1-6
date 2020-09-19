@@ -11,9 +11,33 @@ and jam with the house band. Live music sessions from well known and established
 As bar owner, I want to provide an outstanding service to my guests, with the aim to gain high customer retention and renomé.
 My marketing channels will be through the traditional channels (magazines and web sites as Tripadvisor), but foremost, 
 through the web site to attract new customers, unfamiliar with the bar or off-chance visitors skimming the web.
-
 ## UX
-The typical visitor to the web page is, firstly, an odd chance visitor skimming the web for an evening venue, 
+Research made for this Milestone Project (MP1 henceforth) consists of visiting similar businesses web pages, 
+demographics of customer and customer path to purchase.
+
+### Competition analysis and businesses (mobile device)
+[Fasching](https://www.fashing.se)
+
+A Swedish jazz and blues club in Stockholm. Tha web page have a nice dark theme with stark contrast. The main focus is selling tickets to the events 
+and that is the first thing that you encounter on the page. I find that clutters the page and it is difficult to diffirentiate between all the information that is provided. Fasching has a 
+calender, about, kitchen, contact, and a newsletter page with subcategories.
+
+[Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
+
+This page is well structured with a description of the bar, where you can find it and a video (non-auto play)
+presentation of previous gigs, followed by reviews from happy customers. It has a nice color scheme but the layout makes me 
+scroll further down to find the information I seek (address, phone) or use the toggler menu.
+The presentation and photo gallery of the artists and bands is not interactive and therefor a dead end on the page.
+
+Other websites included in the resarch is almost to the point similar to the two previously described.
+* [Stampen, Sweden](https://www.stampen.se)
+* [U Street Music Hall, USA](https://www.ustreetmusichall.com)
+* [The Iridium, USA](www.https://www.theiridium.com)
+* [The Mine Music Hall, USA](https://www.theminemusichall.com)
+
+-----
+
+The typical visitor to the Cadillac Lounge web page is, firstly, an odd chance visitor skimming the web for an evening venue, 
 a returning visitor seeking information regarding events, opening hours, contact information ect. Lastly, a muscician seeking the opportunity to be engaged for a music session.
 
 The demographics for jazz and blues listeners is widely spread (study by Jazz Audiences Initiative, US 2015 ). [To the study ](https://bluesjazzlondon.wordpress.com/2015/04/20/the-demographics-of-blues-and-jazz-listeners-in-6-graphs/)
@@ -24,7 +48,7 @@ In short, the average jazz and blues listeners are:
 * are married or partnered
 * aged 45-54
 
-They listen to the genre occasionally, significantly jazz makes them happy and the most known title is "What a Wonderful World" performed by Louis Armstrong.
+They listen to the genre occasionally, jazz makes them happy and the most known title is "What a Wonderful World" performed by Louis Armstrong.
 The challenges for the bar is to target the customers from such a widely spread demographics.
 
 ### User story
