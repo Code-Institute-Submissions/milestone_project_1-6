@@ -1,39 +1,58 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Cadillac Lounge Jazz & Blues Bar
+The inspiration to this project came to me when I was skimming the web for images to another mini project.
+I came across an image of a jazz and blues bar exterior at night, with the bright neon light
+reflecting down onto the damp pavement. I wanted to enter into the bar, no, in fact I wanted to own it!
 
-Welcome Helena-p,
+The Cadillac Lounge is an ficticious Jazz & Blues Bar in central Chicago.
+Setting the Cadillac Lounge apart from other bars in Chicago, will be the quality service and know-how provided from the staff,
+ as well as arranged weekly jam session, where the guests can participate with their instruments
+and jam with the house band. Live music sessions from well known and established jazz and blues musicians is taken place every weekend.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+As bar owner, I want to provide an outstanding service to my guests, with the aim to gain high customer retention and renomé.
+My marketing channels will be through the traditional channels (magazines and web sites as Tripadvisor), but foremost, 
+through the web site to attract new customers, unfamiliar with the bar or off-chance visitors skimming the web.
 
-## Gitpod Reminders
+## UX
+The typical visitor to the web page is, firstly, an odd chance visitor skimming the web for an evening venue, 
+a returning visitor seeking information regarding events, opening hours, contact information ect. Lastly, a muscician seeking the opportunity to be engaged for a music session.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The demographics for jazz and blues listeners is widely spread (study by Jazz Audiences Initiative, US 2015 ). [To the study ](https://bluesjazzlondon.wordpress.com/2015/04/20/the-demographics-of-blues-and-jazz-listeners-in-6-graphs/)
+ 
+In short, the average jazz and blues listeners are:
+* working full time
+* have a Bachelors Degree
+* are married or partnered
+* aged 45-54
 
-`python3 -m http.server`
+They listen to the genre occasionally, significantly jazz makes them happy and the most known title is "What a Wonderful World" performed by Louis Armstrong.
+The challenges for the bar is to target the customers from such a widely spread demographics.
 
-A blue button should appear to click: *Make Public*,
+### User story
+* New customer
 
-Another blue button should appear to click: *Open Browser*.
+I am a potential customer, skimming the web for a venue to have a night out with friends. My attention will be drawn to the unexpected and out of the ordinary. I need contact information to 
+know where to go, opening hours and how to get in touch for specific information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Returning customer
 
-A blue button should appear to click: *Make Public*,
+I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the upcoming events for
+ the week or later that month. I am mostly interested in the event section and further information about the bands and to book a ticket.
 
-Another blue button should appear to click: *Open Browser*.
+ * Business related customer
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+ I am a muscician seeking the opportunity to be engaged for an event. My main focus when visiting the 
+ web page is how to get in contact and how to get there. The information I am seeking is in the practical area (performance gear, booking schedule and so on).
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Features
+### Existing Features
+### Future implements
+## Technologies used
+## Testing
+## Deployment
+## Credits
+### Content
+### Media
+## Acknowledgements
