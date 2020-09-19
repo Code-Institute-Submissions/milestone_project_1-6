@@ -12,31 +12,6 @@ As bar owner, I want to provide an outstanding service to my guests, with the ai
 My marketing channels will be through the traditional channels (magazines and web sites as Tripadvisor), but foremost, 
 through the web site to attract new customers, unfamiliar with the bar or off-chance visitors skimming the web.
 ## UX
-Research made for this Milestone Project (MP1 henceforth) consists of visiting similar businesses web pages, 
-demographics of customer and customer path to purchase.
-
-### Competition analysis and businesses (mobile device)
-[Fasching](https://www.fashing.se)
-
-A Swedish jazz and blues club in Stockholm. Tha web page have a nice dark theme with stark contrast. The main focus is selling tickets to the events 
-and that is the first thing that you encounter on the page. I find that clutters the page and it is difficult to diffirentiate between all the information that is provided. Fasching has a 
-calender, about, kitchen, contact, and a newsletter page with subcategories.
-
-[Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
-
-This page is well structured with a description of the bar, where you can find it and a video (non-auto play)
-presentation of previous gigs, followed by reviews from happy customers. It has a nice color scheme but the layout makes me 
-scroll further down to find the information I seek (address, phone) or use the toggler menu.
-The presentation and photo gallery of the artists and bands is not interactive and therefor a dead end on the page.
-
-Other websites included in the resarch is almost to the point similar to the two previously described.
-* [Stampen, Sweden](https://www.stampen.se)
-* [U Street Music Hall, USA](https://www.ustreetmusichall.com)
-* [The Iridium, USA](www.https://www.theiridium.com)
-* [The Mine Music Hall, USA](https://www.theminemusichall.com)
-
------
-
 The typical visitor to the Cadillac Lounge web page is, firstly, an odd chance visitor skimming the web for an evening venue, 
 a returning visitor seeking information regarding events, opening hours, contact information ect. Lastly, a muscician seeking the opportunity to be engaged for a music session.
 
@@ -54,18 +29,26 @@ The challenges for the bar is to target the customers from such a widely spread 
 ### User story
 * New customer
 
-I am a potential customer, skimming the web for a venue to have a night out with friends. My attention will be drawn to the unexpected and out of the ordinary. I need contact information to 
-know where to go, opening hours and how to get in touch for specific information.
+I am a potential customer, skimming the web for a venue to have a night out with friends. 
+When I am skimming the pages my attention will be drawn to the unexpected and out of the ordinary (the landing page).
+I will need to know more about the bar, I therefor click on the navbar or scroll to the second About page.
+I need contact information to know where to go, opening hours and how to get in touch for specific 
+information.I then click again on the fixed-to-top navbar or scroll to adress information in the footer.
 
 * Returning customer
 
 I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the upcoming events for
- the week or later that month. I am mostly interested in the event section and further information about the bands and to book a ticket.
+ the week or later that month. I am mostly interested in the event section and further information 
+ about the bands and to book a ticket. I use the navbar to navigate on the page to the event section. 
+ From there I can use the provided link in the text to Spotify, or go directly to an external booking 
+ site, by clicking on the book now button to get tickets for the event.
 
  * Business related customer
 
  I am a muscician seeking the opportunity to be engaged for an event. My main focus when visiting the 
- web page is how to get in contact and how to get there. The information I am seeking is in the practical area (performance gear, booking schedule and so on).
+ web page is how to get in contact with the bar and an address. The information I am seeking is in the practical 
+ area (performance gear, booking schedule and so on). I navigate the web page by using the navbar and go to
+ the contact page and fill out the form or the footer for additional contact information.
 
 
 
@@ -80,3 +63,16 @@ I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the
 ### Content
 ### Media
 ## Acknowledgements
+Research made for this Milestone Project (MP1 henceforth) consists of visiting similar businesses web pages, 
+demographics of customer and customer path to purchase.
+
+### Competition analysis and businesses (mobile device)
+* [Fasching](https://www.fashing.se)
+* [Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
+* [Stampen, Sweden](https://www.stampen.se)
+* [U Street Music Hall, USA](https://www.ustreetmusichall.com)
+* [The Iridium, USA](www.https://www.theiridium.com)
+* [The Mine Music Hall, USA](https://www.theminemusichall.com)
+
+-----
+

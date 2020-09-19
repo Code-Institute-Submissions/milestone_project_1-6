@@ -1,3 +1,31 @@
 body {
-    background-color: red;
+    margin: 0;
+}
+
+/*-----navbar----*/
+
+.navbar {
+    height: 60px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    line-height: 170%;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+/*---Hero Image--------*/
+
+.hero-image {
+    background: href="assets/images/cadillac_lounge.jpg"
+}
+
+/*-------Jumbotron-----*/
+
+.jumbotron {
+    text-align: center;
+    margin: 260px 100px 100px 100px;
 }
