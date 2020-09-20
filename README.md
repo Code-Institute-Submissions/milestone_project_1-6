@@ -60,6 +60,9 @@ I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the
 ## Testing
 ## Deployment
 ## Credits
+
+* Stack Overflow
+Rearranged nav items to the right by ml-auto instead of mr-auto.
 ### Content
 ### Media
 ## Acknowledgements
