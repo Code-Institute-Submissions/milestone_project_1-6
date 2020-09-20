@@ -61,12 +61,14 @@ I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the
 * Google Fonts
 * Font Awesome
 * Tiny.png
+* Adobe Color
 ## Testing
 ## Deployment
 ## Credits
 
 * Stack Overflow
 Rearranged nav items to the right by ml-auto instead of mr-auto.
+Changed toggler icon to white by navbar-dark attribute.
 ### Content
 ### Media
 ## Acknowledgements
