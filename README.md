@@ -57,6 +57,10 @@ I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the
 ### Existing Features
 ### Future implements
 ## Technologies used
+* Balsamiq (wireframes)
+* Google Fonts
+* Font Awesome
+* Tiny.png
 ## Testing
 ## Deployment
 ## Credits

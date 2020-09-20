@@ -21,13 +21,19 @@ body {
 .logo {
     text-decoration: none;
     font-family: 'Yellowtail', 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 /*---Hero Image--------*/
 
 .hero-image {
-    background: href="assets/images/cadillac_lounge.jpg"
+    position: absolute;
+    background-image: url("/assets/images/cadillac_lounge.jpg");
+    background-repeat: no-repeat;
+    background-color: #abb6c6;
+    height: 500px;
+    
+
 }
 
 /*-------Jumbotron-----*/
