@@ -3,21 +3,32 @@
 body {
     margin: 0;
 }
-h1,  h2, h4 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 38px;
+    font-size: 42px;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-clamp: 150%;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 28px;
+}
+h3 {
+    font-size: 22px;
+    text-transform: capitalize;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
     text-transform: capitalize;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 2px;
+
 }
 
 /*-----navbar----*/
@@ -42,17 +53,21 @@ h4 {
     font-size: 36px;
     color: #fff;
 }
+.nav-item a:hover, .logo:hover {
+    color: rgb(197, 191, 195);
+}
+
+.nav-item a:active, .logo:active {
+    color: rgb(191,147,151);
+}
 
 /*---Hero Image--------*/
 
 .hero-image {
-    position: absolute;
-    background-image: url("../images/cadillac_lounge.jpg");
-    background-repeat: no-repeat repeat;
-    height: 100%;
-    background-position: center;
+    background: url("../images/cadillac_lounge.jpg") no-repeat center center fixed;
+    height: 85em;
     background-size: cover;
-    width: 100%;
+    display: flex;
 }
 
 .jumbotron {
@@ -61,5 +76,17 @@ h4 {
     background-color:  rgba(55, 64, 119, 0.5);
     color: #fff;
     text-align: center;
+}
+
+/*---About Us ----*/
+
+.about-us-page {
+    background-color: rgb(90, 84, 88);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    line-height: 170%;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
