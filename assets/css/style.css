@@ -23,7 +23,7 @@ h4 {
 /*-----navbar----*/
 
 .navbar {
-    background-color: rgb(55, 64, 119);
+    background-color: rgba(55, 64, 119, 0.8);
 }
 
 .nav-item a {
