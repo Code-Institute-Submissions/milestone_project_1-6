@@ -92,12 +92,27 @@ p {
     width: 100%;
     text-align: center;
     line-height: 170%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 12vw;
     padding-right: 12vw;
     
 }
 
 /*  Events  */
+
+.event-box {
+    background-color: rgb(175, 161, 170);
+    color: #fff;
+    width: 100%;
+    /* text-align: center; */
+    line-height: 170%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
 
 /* Contact Page  */
 
