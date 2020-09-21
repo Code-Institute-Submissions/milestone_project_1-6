@@ -13,14 +13,21 @@ h1, h2, h3, h4 {
     font-size: 42px;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 2px;
     line-clamp: 150%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 h2 {
     font-size: 28px;
-
 }
+
+#h2-week {
+    padding-top: 0;
+}
+
 h3 {
     font-size: 22px;
     text-transform: capitalize;
@@ -90,13 +97,15 @@ p {
     background-color: rgb(90, 84, 88);
     color: #fff;
     width: 100%;
-    text-align: center;
     line-height: 170%;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
-    
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.about-us-page p {
+    text-align: center;
 }
 
 /*  Events  */
@@ -105,12 +114,21 @@ p {
     background-color: rgb(175, 161, 170);
     color: #fff;
     width: 100%;
-    /* text-align: center; */
     line-height: 170%;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 12vw;
     padding-right: 12vw;
+    display: inline-block;
+}
+
+.music-link {
+    color: rgb(94, 108, 191);
+    font-size: 20px;
+}
+
+.music-link:hover {
+    color: rgb(55, 64, 119);
 }
 
 
