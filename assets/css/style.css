@@ -2,7 +2,12 @@
 
 body {
     margin: 0;
+    border: 0;
+    padding: 0;
 }
+
+/* Headings  */
+
 h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 42px;
@@ -14,13 +19,9 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 28px;
+
 }
 h3 {
-    font-size: 22px;
-    text-transform: capitalize;
-}
-
-h4 {
     font-size: 22px;
     text-transform: capitalize;
 }
@@ -31,7 +32,7 @@ p {
 
 }
 
-/*-----navbar----*/
+/*  Navbar  */
 
 .navbar {
     background-color: rgba(55, 64, 119, 0.8);
@@ -61,7 +62,7 @@ p {
     color: rgb(191,147,151);
 }
 
-/*---Hero Image--------*/
+/*  Hero Image and Jumbotron  */
 
 .hero-image {
     background: url("../images/cadillac_lounge.jpg") no-repeat center center fixed;
@@ -78,15 +79,26 @@ p {
     text-align: center;
 }
 
-/*---About Us ----*/
+/*  About Us */
+
+.about-box {
+    padding: 0;
+}
 
 .about-us-page {
+    
     background-color: rgb(90, 84, 88);
     color: #fff;
     width: 100%;
     text-align: center;
     line-height: 170%;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    padding-left: 12vw;
+    padding-right: 12vw;
+    
 }
+
+/*  Events  */
+
+/* Contact Page  */
+
+ /*  Footer  */

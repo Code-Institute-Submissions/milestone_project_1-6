@@ -69,6 +69,8 @@ I am a frequent visitor to Cadillac Lounge. I want to keep myself updated to the
 * Stack Overflow
 Rearranged nav items to the right by ml-auto instead of mr-auto.
 Changed toggler icon to white by navbar-dark attribute.
+* Fashing
+Copied and translated text snippets about bands in the event section.
 ### Content
 ### Media
 ## Acknowledgements
