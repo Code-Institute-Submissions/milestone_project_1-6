@@ -148,16 +148,48 @@ p {
 }
 
 .contact-form {
-    background-color: rgb(90, 84, 88);
-    color: #fff;
-    width: 100%;
    text-align: center;
+   
+   
 }
 
 input {
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 4px;
+    
+
 }
 
  /*  Footer  */
+
+ .footer {
+    background-color: rgb(55, 64, 119);
+    color: #fff;
+    margin-top: 30px;
+    height: 120px;
+    margin-bottom: 0;
+ }
+
+ .footer-box {
+    height: inherit;
+ }
+
+#social-media {
+    font-size:2em;
+    box-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.footer-links li {
+    display: inline;
+    margin-left: 5px;
+    color: #fff;
+}
+
+#google-map i {
+    font-size: 2em;
+}

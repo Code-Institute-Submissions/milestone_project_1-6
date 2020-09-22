@@ -236,44 +236,65 @@
         <div container-fluid class="contact-image"></div>
         <a name="contact"></a>
             <h1>Contact Us</h1>
-                <div class="contact-form">
+            <div class="container contact-form">
                     <form action="#" target="_blank" method="post">
-                        <label for="fname">First Name:</label>
-                        <input type="text" id="fname" name="fname" placeholder="your first name" size="40" required><br>
-                        
-                        <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" name="lname" placeholder="your last name" size="40" required>
-                        <br>
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" placeholder="name@mail.com" size="40" required>
-                        <br>
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" placeholder="your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
-                        <br>
-                        <textarea name="message" style="width:500px; height:300px;">Place your text message here.</textarea>
-                        <br>
-                        <input type="submit" value="Send">
-                        <input type="reset">
+                        <div class="row">
+                            <div class="col">
+                                <label for="fname">First Name:</label>
+                                <input type="text" id="fname" name="fname" placeholder="your first name"  required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname" placeholder="your last name"  required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" name="email" placeholder="name@mail.com" required>
+                             </div>
+                         </div>
+                         <div class="row">
+                            <div class="col">
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <textarea class="form-control" name="message" style="width:300px; height:200px;">Place your text message here.</textarea>
+                                <input type="submit" value="Send">
+                                <input type="reset">
+                            </div>
+                        </div>
                     </form>
                 </div>
     </section>
     <!--Footer-->
             <footer>
-                <div class="container footer">
-                <div id="google-map"> Where To Find Us <i class="fas fa-map-marked-alt"></i> </div>
-                <div id="address-info">
-                <h2>Cadillac Lounge</h2>
-                    <address>
-                        DO 312, LLC 
-                        210 N. Justine St.
-                        Chicago, IL 606 07 <br>
-                        <i class="fas fa-phone"></i> Phone: (312) 555-8663
-                    </address>
-                </div>
-                <div id="social-media">
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
+                <div class="container-fluid footer">
+                <div class="row footer-row">
+                    <div class="col-sm-4 footer-box">
+                        <div id="google-map"> Where To Find Us <i class="fas fa-map-marked-alt"></i> </div>
+                    </div>
+                    <div class="col-sm-4 footer-box" id="address-info">
+                        <h3>Cadillac Lounge</h3>
+                        <address>
+                            DO 312, LLC 
+                            210 N. Justine St.
+                            Chicago, IL 606 07 <br>
+                            <i class="fas fa-phone"></i> Phone: (312) 555-8663
+                        </address>
+                    </div>
+                    <div class="col-sm-4 footer-box" id="social-media">
+                        <ul class="footer-links">
+                           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                           <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
                 </div>
             </footer>
