@@ -147,4 +147,17 @@ p {
     display: flex;
 }
 
+.contact-form {
+    background-color: rgb(90, 84, 88);
+    color: #fff;
+    width: 100%;
+   text-align: center;
+}
+
+input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
  /*  Footer  */
