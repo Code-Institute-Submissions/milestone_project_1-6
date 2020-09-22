@@ -117,9 +117,15 @@ p {
     line-height: 170%;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     display: inline-block;
+}
+
+.event-box p {
+    background-color:  rgb(128, 115, 123);
+    border-radius: 4px;
+    padding: 1em;
 }
 
 .music-link {
@@ -133,5 +139,12 @@ p {
 
 
 /* Contact Page  */
+
+.contact-image {
+    background:  url("../images/friends_at_bar.jpg") no-repeat center center fixed;
+    height: 65em;
+    background-size: cover;
+    display: flex;
+}
 
  /*  Footer  */
