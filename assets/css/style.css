@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+/** {
+    outline: 2px solid yellow;
+} */
+
 /* Headings  */
 
 h1, h2, h3, h4 {
@@ -110,6 +114,10 @@ p {
     padding-right: 8vw;
 }
 
+#hours-p {
+    text-align: center;
+}
+
 /*  Events  */
 
 .event-box {
@@ -150,28 +158,32 @@ p {
 }
 
 .contact-form {
-   text-align: center;
    
    
 }
 
 input {
-    
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
 
 }
 
  /*  Footer  */
 
  .footer {
-    background-color: rgb(55, 64, 119);
+    clear: both;
     color: #fff;
     margin-top: 30px;
     height: 120px;
-    margin-bottom: 0;
+   
  }
 
  .footer-box {
-    height: inherit;
+     background-color: rgb(55, 64, 119);
+    margin: 0;
+    
+
  }
 
 #social-media {
@@ -194,4 +206,8 @@ input {
 
 #google-map i {
     font-size: 2em;
+}
+
+#address-info {
+   text-align: center;
 }

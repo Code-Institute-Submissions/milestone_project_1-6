@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
+
   <head>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Cadillac Lounge</title>
-
   </head>
 
   <body>
@@ -19,11 +19,10 @@
   <header>
 
     <!--Bootstrap navbar fixed to top-->
-
     <nav class="navbar navbar-expand-md fixed-top">
     <a class="navbar-brand logo" href="index.html"><i class="fas fa-cocktail"></i> Cadillac Lounge</a>
 
-    <!-----Changed the toggler icon to light by navbar-dark attribute/Stack Overflow-->
+    <!-----Changed the toggler icon to light by navbar-dark attribute / Stack Overflow-->
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class=" navbar-toggler-icon"></span>
         </button>
@@ -79,7 +78,7 @@
                     - vist our Event page for more information. We're a proud sponsor of the annual Chicago Blues Fest and Chicago Jazz fest. 
                 </p>
                 <h2>Opening Hours</h2>
-                <p>
+                <p id="hours-p">
                     Tuesday to Thursday 4pm - 2em
                     Friday to Sunday 4pm - 3em
                 </p>
@@ -98,6 +97,7 @@
         <div class="row">
             <div class="col-12 col-sm-6">
                 <!--Text copied and translated from Fashing-->
+                <!-- Used Bootstrap Image Thumbnail attribute to images-->
                 <p>
                 <strong>Matthew Rinder's Mining</strong> is the new star-dense band that has risen from the underworld to break new music. 
                 They have charmed the jazz world with their intricate compositions, dizzying improvisations and spontaneous whims. The 
@@ -120,7 +120,6 @@
 
         <div class="row">
             <div class="col-12 col-sm-6">
-                <!--Text copied and translated from Fashing-->
                 <p>
                 <strong>Sarah Doe's</strong> debut album ”I've been thinkin” was released in 1998 Sarah has received the Emily Cutris
                 scholarship, Stim-scholarship and many prizes. There is an echo of our great jazz singers in her music.
@@ -143,7 +142,6 @@
 
         <div class="row">
             <div class="col-12 col-sm-6">
-                <!--Text copied and translated from Fashing-->
                 <p>
                 <strong>Ashley Doyle</strong> is a fast fingered pianist that mixes influences from different genres and is considered to be one of the most saught after on
                  Londons vibrating jazzscene today. British magazine the Evening Standard has called him ”the ultimate pianist”. Other  
@@ -166,7 +164,6 @@
 
         <div class="row">
             <div class="col-12 col-sm-6">
-                <!--Text copied and translated from Fashing-->
                 <p>
                 <strong>Oddjob</strong> - For two decades they have been acclaimed by audiences and critics for albums and concerts both at home and around the world. 
                 Oddjob constantly takes on a new approach to jazz and is never afraid to explore new expressions, with inspiration for their music which is 
@@ -188,7 +185,6 @@
 
         <div class="row">
             <div class="col-12 col-sm-6">
-                <!--Text copied and translated from Fashing-->
                 <p>
                 <strong>Fatboy</strong> are definitely the blues kings of the USA. The band are unlike other bands in the genre, the members are constantly curious about new 
                 music while with an impressive obviousness always faithful to their roots. It's been three years since the last album Moments and 
@@ -211,7 +207,6 @@
 
         <div class="row">
             <div class="col-12 col-sm-6">
-                <!--Text copied and translated from Fashing-->
                 <p>
                 "Sing Me the News" is the title of jazz singer/songwriter <strong>Janet Doeson's</strong> new album! A loosely held concept album about the 
                 different stages of a crisis and the desire to move on out of it. Musically, as always with Janet, it is a seamless genre mix, 
@@ -268,9 +263,9 @@
                         <div class="row">
                             <div class="col">
                                 <textarea class="form-control" name="message" style="width:300px; height:200px;">Place your text message here.</textarea>
+                                    <input type="reset">
                                 <input type="submit" value="Send">
-                                <input type="reset">
-                            </div>
+                            </div> 
                         </div>
                     </form>
                 </div>
@@ -281,15 +276,16 @@
                 <div class="container-fluid footer">
                 <div class="row footer-row">
                     <div class="col-sm-4 footer-box">
-                        <div id="google-map"> Where To Find Us 
-                        <i class="fas fa-map-marked-alt"></i>
+                        <div id="google-map">
+                            <p>Where To Find Us</p><i class="fas fa-map-marked-alt"></i>
                         </div>
-                       <img src="./images/googlemaps-chicago.png">
+                       <img src="../images/googlemaps-chicago.png">
                         </div>
                     <div class="col-sm-4 footer-box" id="address-info">
-                        <h4>Cadillac Lounge</h4>
-                        <address>
-                            DO 312, LLC <br>
+                    <!--Address copied from actual Cadillac Lounge in Chicago-->
+                       <address>
+                        <h3>Cadillac Lounge</h3>
+                            DO 312, LLC  
                             210 N. Justine St. <br>
                             Chicago, IL 606 07 <br>
                             <i class="fas fa-phone"></i> Phone: (312) 555-8663
