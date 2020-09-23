@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Yellowtail&display=swap');
 
-body {
+* {
     margin: 0;
     border: 0;
     padding: 0;
 }
-
-/** {
-    outline: 2px solid yellow;
-} */
 
 /* Headings  */
 
@@ -41,7 +37,6 @@ h3 {
 p {
     font-size: 18px;
     letter-spacing: 2px;
-
 }
 
 /*  Navbar  */
@@ -83,7 +78,8 @@ p {
     display: flex;
 }
 
-.jumbotron {
+#jumbo-welcome {
+    display: block;
     margin: auto;
     margin-top: 200px;
     background-color:  rgba(55, 64, 119, 0.5);
@@ -130,6 +126,7 @@ p {
     padding-left: 10vw;
     padding-right: 10vw;
     display: inline-block;
+    justify-content: space-evenly;
 }
 
 .event-box p {
@@ -137,6 +134,10 @@ p {
     border-radius: 4px;
     padding: 1em;
 }
+
+.event-img {
+   padding-left: 60px;
+ }
 
 .music-link {
     color: rgb(94, 108, 191);
@@ -155,19 +156,63 @@ p {
     height: 65em;
     background-size: cover;
     display: flex;
+    
 }
-
-.contact-form {
-   
-   
+.jumbotron {
+    max-width: 768px;
+    min-width: 320px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
 }
 
 input {
+    display: inline-block;
     width: 100%;
-    padding-left: 5em;
-    padding-right: 5em;
-
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
 }
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#reset-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(159, 168, 224);
+    border-radius: 4px;
+    color: #fff;
+    width: 10em;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#submit-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(204,102,0);
+    border-radius: 4px;
+    color: #fff;
+    width: 10em;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 
  /*  Footer  */
 
@@ -180,7 +225,7 @@ input {
  }
 
  .footer-box {
-     background-color: rgb(55, 64, 119);
+    background-color: rgb(55, 64, 119);
     margin: 0;
     
 
