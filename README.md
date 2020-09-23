@@ -71,17 +71,18 @@ W3school web site. My solution was using the attribute "clear"with the value "bo
 ## Credits
 
 * Stack Overflow
-Rearranged nav items to the right by ml-auto instead of mr-auto.
-Changed toggler icon to white by navbar-dark attribute.
 * W3School
+* Bootstrap 
 * Code Institute Slack Channel
 * Fashing
 
 ### Content
 The content is written by myself with one exception. The short text about the musicians in 
-the Event page is copied and translated from the Fasching web site.
+the Event page is copied and translated from the Fasching web site. The idea of the bar being a sponsor to a 
+festival came from The Spotted Cat Music Club.
 ### Media
-Numerous images is supplied from free image providers as Pexels and Pixabay, but I also purchased several from Shutterstock.
+Numerous images is supplied from free image providers such as Pexels, Burst and Pixabay, but I also purchased several
+ several images from Shutterstock.
 ### Acknowledgements
 Research made for this Milestone Project consists of visiting similar businesses web pages, 
 demographics of customer and customer path to purchase.
