@@ -52,6 +52,11 @@ information.I then click again on the fixed-to-top navbar or scroll to adress in
  the contact page and fill out the form or the footer for additional contact information.
 
 ## Features
+Changing my navbar to dark mode caused problem with toggler vanishing. I solved the problem by troubleshooting on 
+Stack Overflow chat community history and used the command "navbar-dark". On Stack Overfow I also found the command "ml-auto" 
+(instead of mr-ato) to move my nav-items from the left side of the navbar to the right.
+I had a problem with white space beneath footer. Solved the problem by troubleshooting grids and floats on 
+W3school web site. My solution was using the attribute "clear"with the value "both" in css stylesheet.
 ### Existing Features
 ### Future implements
 ## Technologies used
