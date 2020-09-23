@@ -158,6 +158,9 @@ p {
     display: flex;
     
 }
+
+/* Support from W3School in styling contact form  */
+
 .jumbotron {
     max-width: 768px;
     min-width: 320px;

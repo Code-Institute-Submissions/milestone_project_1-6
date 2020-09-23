@@ -53,10 +53,14 @@ information.I then click again on the fixed-to-top navbar or scroll to adress in
 
 ## Features
 Changing my navbar to dark mode caused problem with toggler vanishing. I solved the problem by troubleshooting on 
-Stack Overflow chat community history and used the command "navbar-dark". On Stack Overfow I also found the command "ml-auto" 
+Stack Overflow chat community history , where I found and used the command "navbar-dark". On Stack Overfow I also found the command "ml-auto" 
 (instead of mr-ato) to move my nav-items from the left side of the navbar to the right.
 I had a problem with white space beneath footer. Solved the problem by troubleshooting grids and floats on 
-W3school web site. My solution was using the attribute "clear"with the value "both" in css stylesheet.
+W3school web site. My solution was using the attribute "clear" with the value "both" in css stylesheet.
+
+Built intitially a contact form on containers, rows and columns, but, had some trouble with overflow. I decided to delete the 
+entire form and rebuild a new one inside a jumbotron instead. I styled the new contact form with support from W3School. I was indecivesive 
+of including media querie or not, but, decided against since time was short.
 ### Existing Features
 ### Future implements
 ## Technologies used
