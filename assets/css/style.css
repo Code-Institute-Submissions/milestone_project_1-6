@@ -138,17 +138,29 @@ p {
     padding: 1em;
 }
 
-.event-img {
-   padding-left: 60px;
+.event-btn {
+    background-color:  rgb(204,102,0);
+    color: #fff;
+    border: none;
+}
+
+.event-btn:hover {
+    background-color:rgb(207, 156, 105);
+    color: #fff;
+}
+
+.img-fluid {
+   max-width:100%; 
+   height: auto;
  }
 
 .music-link {
-    color: rgb(94, 108, 191);
+    color: #fff;
     font-size: 20px;
 }
 
 .music-link:hover {
-    color: rgb(55, 64, 119);
+    color: rgb(204,102,0);
 }
 
 
