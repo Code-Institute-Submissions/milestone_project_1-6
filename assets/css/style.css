@@ -275,50 +275,33 @@ textarea {
 
  /*  Footer  */
 
- .footer {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
-    clear: both;
-    color: #fff;
-    margin-top: 30px;
-    width: 100%;
-    height: 120px;
+ .footer-wrapper {
+     background-color: rgb(55, 64, 119);
+     color: #fff;
+     height: 10em;
+     text-align: center;
+     width: 100%;
+ }
+
+ .adress {
+    padding-top: 1em;
+    font-size: 0.8em;
+ }
+
+ .social-links {
+    list-style-type: none;
+    padding-top: 0.8em;
+    font-size: 2em;
+    margin: auto;
+    
+ }
+
+ .social-links li {
+    display: inline;
    
  }
 
- .footer-box {
-    background-color: rgb(55, 64, 119);
-    margin: 0;
- }
-
-#social-media {
-    font-size:2em;
-    box-align: center;
-}
-
-.footer-links {
-    list-style-type: none;
-    text-align: center;
-    padding-top: 30px;
+ .social-links i {
+    color: #fff;
     
-}
-
-.footer-links li {
-    display: inline-block;
-    margin-left: 20%;
-    margin-right: 5%;
-    margin-top: 2%;
-}
-
-.footer-links i {
-     color: #fff;
-}
-
-.footer-links i:hover {
-    color: rgb(204,102,0);
-}
-
-#address-info {
-   text-align: center;
-   padding-top: 2em;
-}
+ }

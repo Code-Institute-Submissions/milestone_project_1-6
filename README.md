@@ -1,4 +1,5 @@
-# Cadillac Lounge Jazz & Blues Bar
+# Cadillac Lounge 
+** Jazz & Blues Bar
 I received the inspiration to this project when I was skimming the web for images to another project.
 I came across an image of a jazz and blues bar exterior at night, with the bright neon light
 reflecting down onto the pavement. I wanted to enter into the bar, no, in fact I wanted to own it!
