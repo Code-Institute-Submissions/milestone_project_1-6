@@ -23,10 +23,10 @@
     <a class="navbar-brand logo" href="index.html"><i class="fas fa-cocktail" aria-hidden="true"></i>Cadillac Lounge</a>
 
     <!-----Changed the toggler icon to light by navbar-dark attribute / Stack Overflow-->
-        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=" navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav navbar-brand ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -49,7 +49,7 @@
 
 <!--Hero image -->
 
-   <div class="container-fluid hero-image">
+  <div class="container-fluid hero-image">
      <div class="jumbotron col-12 col-6 " id="jumbo-welcome">
         <h1>Cadillac Lounge</h1>
             <h2>The Jazz & Blues Bar In Chicago</h2>
@@ -232,9 +232,13 @@
          </div>
                 <div class="jumbotron">
                     <form action="#" target="_blank" method="post">
+                        <label for="fname">First Name:</label>
                         <input type="text" id="fname" name="fname" placeholder="Your First Name"  required>
+                        <label for="lname">Last Name:</label>
                         <input type="text" id="lname" name="lname" placeholder="Your Last Name"  required>
+                        <label for="email">Email Address:</label>
                         <input type="email" id="email" name="email" placeholder="name@mail.com" required> 
+                        <label for="phone">Telephone:</label>
                         <input type="tel" id="phone" name="phone" placeholder="555-111-222" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
                         <textarea name="message" style="height:150px" placeholder="Place your message here.."></textarea>
                         <div>
