@@ -88,10 +88,10 @@ p {
     width: 100%;
     display: block;
     margin: auto;
-    margin-top: 200px;
-    background-color:  rgba(55, 64, 119, 0.5);
+    background-color:rgba(55, 64, 119, 0.5);
     color: #fff;
     text-align: center;
+    margin-top: 200px;
 }
 
 /*  About Us */
@@ -121,7 +121,6 @@ p {
     margin: auto;
     max-width: 700px;
     min-width: 275px;
-   
 }
 
 #hours-p {
@@ -192,7 +191,6 @@ img {
     color: rgb(204,102,0);
 }
 
-
 /* Contact Page  */
 
 #contact-h1 {
@@ -214,26 +212,26 @@ img {
     font-size: 18px;
     color: #474747;
     margin-bottom: 2em;
-
 }
 
 input {
     display: inline-block;
     width: 100%;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 14px;
+    margin-bottom: 1.5em;
     box-sizing: border-box;
     border-radius: 2px;
 }
 
 textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin-top: 8px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
 }
 
 #reset-btn {
@@ -267,7 +265,6 @@ textarea {
 #submit-btn:hover {
     background-color:rgb(207, 156, 105);
     color: #fff;
-
 }
 
  /*  Footer  */
