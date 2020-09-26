@@ -2,8 +2,6 @@
 
 ## Jazz & Blues Bar
 I received the inspiration to this project when I was skimming the web for images to another project.
-I came across an image of a jazz and blues bar exterior at night, with the bright neon light
-reflecting down onto the pavement. I wanted to enter into the bar, no, in fact I wanted to own it!
 
 The Cadillac Lounge is an ficticious Jazz & Blues Bar in central Chicago.
 Setting the Cadillac Lounge apart from other bars in Chicago, is the quality service and know-how 
@@ -31,8 +29,8 @@ In short, the average jazz and blues listeners are:
 * are married or partnered
 * aged 45-54
 
-They listen to the genre occasionally, jazz makes them "happy" and the most known title is "What a Wonderful World" 
-performed by Louis Armstrong. The challenges for the bar is to target the customers from such a widely spread demographics.
+They listen to the genre occasionally. The challenges as a bar owner is to target customers from such a widely spread 
+demographics.
 
 ### User story
 -------------
@@ -42,8 +40,8 @@ I am a potential customer, skimming the web for a venue to have a night out with
 When I am skimming the pages my attention is drawn to the unexpected and out of the ordinary. The clean landing site 
 of the bar with an inviting image of the exterior will differ from other pages.
 I will need to know more about the bar, I therefor click on the navbar or scroll to the second 'About' page.
-I need contact information to know where to go, opening hours and how to get in touch for specific 
-information.I then click again on the fixed-to-top navbar, click on the provided link provided in the text, or 
+ I need contact information to know where to go, opening hours and how to get in touch for specific 
+information. I then click again on the navbar, or click on the link provided in the text, or 
 scroll further down the pages to the contact information provided in the footer.
 
 * Returning customer
@@ -61,21 +59,30 @@ scroll further down the pages to the contact information provided in the footer.
  area (performance gear, booking schedule and so on). I navigate the web page by using the navbar and go to
  the contact page. I fill out the form or look in the footer, directly below, for additional contact information.
 
- [Wireframes](/wireframes/hp_mp1_wireframe.pdf)
+ 
 
 ## Features
 --------------
 
+I want to present a clean and easy to navigate, mobile first web site, which scrolls up and down to keep the mobile user 
+experience in all screen sizes. My aim is that the user shall find what they seek within three actions (click on a button, link..).
+
+
 ### Existing Features
+
 ### Future implements
+I would like to expand the web site with a photo gallery and increase user interaction with the possibility to give 
+feed back  and ratings off the bar and the events.
 ## Technologies used
 --------------
-* Balsamiq (wireframes)
-* Google Fonts
-* Font Awesome
-* Tiny.png
-* Adobe Color
-* Bootstrap 
+* [Balsamiq Wireframes](/wireframes/hp_mp1_wireframe.pdf)
+* [Google Fonts](https://fonts.google.com/?query=poppins)
+* [Font Awesome](https://fontawesome.com/icons?d=gallery)
+* [Tiny.png](https://tinypng.com/)
+* [Adobe Color](https://color.adobe.com/sv/create/image)
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [Auto Prefixer](https://autoprefixer.github.io/)
+* [Am I Responsive](http://ami.responsivedesign.is/)
 ## Testing
 -------------
 W3C CSS-Validationtool - Result - no error Found
@@ -91,11 +98,11 @@ W3C CSS-Validationtool - Result - no error Found
 * Fashing
 
 ### Content
-The content is written by myself with one exception. The short text about the musicians in 
-the Event page is copied and translated from the Fasching web site. The idea of the bar being a sponsor to a 
+Content is written by myself, with the exception of the text about the musicians in the 'Event' page, which 
+ is copied and translated from the Fasching web site. The idea of the bar being a sponsor to a 
 festival came from The Spotted Cat Music Club.
 ### Media
-Numerous images is supplied from free image providers such as Pexels, Burst and Pixabay, but I also purchased several
+Numerous images is supplied from free image providers such as Pexels, Burst and Pixabay, but I also purchased
  several images from Shutterstock.
 ### Acknowledgements
 Research made for this Milestone Project consists of visiting similar businesses web pages, 
