@@ -6,8 +6,6 @@
     padding: 0;
 }
 
-
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -139,11 +137,11 @@ p {
     text-align: center;
 }
 
-#ticket-link {
+#ticket-link, #contact-link {
     color: #000;
 }
 
-#ticket-link:hover {
+#ticket-link:hover, #contact-link:hover {
     color: rgb(204,102,0);
 }
 
