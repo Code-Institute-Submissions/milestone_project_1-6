@@ -111,7 +111,6 @@ p {
 }
 
 .about-us-page p {
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
     line-height: 150%;
@@ -138,7 +137,6 @@ p {
 /*  Events  */
 
 .event-page {
-    font-family: 'Poppins', sans-serif;
     color: #474747;
     letter-spacing: 2px;
     width: 100%;
@@ -171,6 +169,7 @@ p {
 .event-btn:hover {
     background-color:rgb(207, 156, 105);
     color: #fff;
+    border: none;
 }
 
 img {
@@ -208,7 +207,6 @@ img {
     margin: auto;
     background-color: rgba(224, 222, 222, 0.925);
     border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #474747;
     margin-bottom: 2em;
@@ -235,25 +233,21 @@ textarea {
 }
 
 #reset-btn {
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(55, 64, 119);
     border-radius: 4px;
     color: #fff;
     width: 10em;
     padding: 10px 24px;
     margin: 8px 2px;
-    cursor: pointer;
 }
 
 #submit-btn {
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(204,102,0);
     border-radius: 4px;
     color: #fff;
     width: 10em;
     padding: 10px 24px;
     margin: 8px 2px;
-    cursor: pointer;
 }
 
 #reset-btn:hover {
@@ -296,6 +290,7 @@ textarea {
     color: #fff;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1em;
  }
 
  .social-links i:hover {
