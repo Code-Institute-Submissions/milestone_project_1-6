@@ -62,8 +62,10 @@ information.I then click again on the fixed-to-top navbar or scroll to adress in
 * Font Awesome
 * Tiny.png
 * Adobe Color
-* Bootstrap 4
+* Bootstrap 
 ## Testing
+W3C CSS-Validationtool - Result - no error Found
+
 ## Deployment
 ## Credits
 

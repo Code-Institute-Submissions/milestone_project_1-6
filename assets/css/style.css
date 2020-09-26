@@ -14,35 +14,35 @@ body {
 }
 
 h1 {
-    font-size: 210%;
+    font-size: 42px;
     font-weight: 300;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 16%;
+    letter-spacing: 2px;
     padding-bottom: 0.5em;
 }
 
 h2 {
-    font-size: 170%;
+    font-size: 28px;
     text-align: center;
 }
 
 #h2-week {    
-    font-size: 160%;
+    font-size: 28px;
     text-align: center;
     padding-bottom: 2em;
 }
 
 h3 {
-    font-size: 137,5%;
+    font-size: 22px;
     font-weight: 500;
     text-align: center;
     text-transform: capitalize;
 }
 
 p {
-    font-size: 100%;
-    letter-spacing: 16%;
+    font-size: 16px;
+    letter-spacing: 2px;
 } 
 
 /*  Navbar  */
@@ -52,10 +52,10 @@ p {
 }
 
 .nav-item a {
-    height: 315%;
-    margin-right: 31%;
+    height: 60px;
+    margin-right: 5px;
     font-weight: 300;
-    font-size: 160%;
+    font-size: 26px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -74,7 +74,7 @@ p {
 /*  Hero Image and Jumbotron  */
 
 .hero-image {
-    background: url("../images/cadillac_lounge.jpg") no-repeat center center fixed;
+    background: url("../images/hero_image.jpg") no-repeat center center fixed;
     height: 85em;
     background-size: cover;
     display: flex;
@@ -93,7 +93,7 @@ p {
 }
 
 #jumbo-welcome h1 {
-    font-size: 250%;
+    font-size: 50px;
 }
 
 /*  About Us */
@@ -113,11 +113,7 @@ p {
 }
 
 .about-us-page p {
-<<<<<<< HEAD
     font-size: 18px;
-=======
-    font-size: 16px;
->>>>>>> e34e0617af59ceac3adce65212b02594a1d46219
     letter-spacing: 2px;
     line-height: 150%;
     padding-top: 1em;
