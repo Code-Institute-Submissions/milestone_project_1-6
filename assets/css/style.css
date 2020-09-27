@@ -16,19 +16,39 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(248,247,248);
+    /*background-color: rgb(248,247,248);*/
 }
 
-/* ----------------  Headings  ---------------- */
+/* ---------------- Hero Image and Jumbotron ---------------- */
 
-.jumbotron-welcome h1 {
+.hero-image {
+    background: url("../images/hero_image.jpg") no-repeat center center fixed;
+    height: 85em;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.jumbotron {
+    background-color: rgba(55, 64, 119, 0.5);
+    width: 100%;
+    display: block;
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jumbotron h1 {
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 2px;
     padding-bottom: 0.5em;
 }
 
-.jumbotron-welcome h3 {
+.jumbotron h3 {
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
@@ -117,30 +137,7 @@ body {
     color: rgb(197, 191, 195);
 }
 
-/* ---------------- Hero Image and Jumbotron ---------------- */
 
-.hero-image {
-    background: url("../images/hero_image.jpg") no-repeat center center fixed;
-    height: 85em;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    
-    
-}
-
-.jumbotron-welcome {
-    width: 100%;
-    display: block;
-    margin: auto;
-    background-color: rgba(55, 64, 119, 0.5);
-    color: #fff;
-    font-size: 28px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 200px;
-}
 
 /* ---------------- About Us ---------------- */
 
