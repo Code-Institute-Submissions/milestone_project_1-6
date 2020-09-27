@@ -228,7 +228,7 @@
             <h1>Contact Us</h1>
          </div>
                 <div class="jumbotron">
-                    <form>
+                    <form  action="#" method="post">
                         <label for="fname">First Name:</label>
                         <input type="text" id="fname" name="fname" placeholder="Your First Name"  required>
                         <label for="lname">Last Name:</label>
@@ -240,7 +240,7 @@
                         <textarea name="message" style="height:150px" placeholder="Place your message here.."></textarea>
                         <div>
                         <input aria-label="reset" type="reset" id="reset-btn">
-                        <button aria-hidden="true" type="button"  id="submit-btn">Submit</button>
+                        <input aria-label="submit" type="submit" value="submit" pattern="[0-9]" id="submit-btn">
                         </div>
                     </form>
                 </div>

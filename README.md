@@ -83,7 +83,8 @@ The center positioned jumbotron have a short but clear message of web site conte
  **Contact** **us** section consists of a contact form with a footer below, containing the contact information and social links.
  If the input fields is not correctly filled out a notification will inform the user and let the user know which fields is 
  required to be able to submit.
- Notice - the submit button is not active since there is no path to send the form
+ Notice - the submit button is active, but will direct to an external page with 'Error Respons'. According to Code Institute this is 
+ within acceptance for a Milestone Project 1, since the students have not studied the programming language required for this function to work.
 
 ### Future implements
 Future implementations to event section would be an image gallery of the artist/artists when mouse-over the image and a clickable music sample.
