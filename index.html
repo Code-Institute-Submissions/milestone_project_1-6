@@ -5,10 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Cadillac Lounge</title>
@@ -18,18 +16,16 @@
 
   <header>
 
-    <!-- Bootstrap navbar fixed to top -->
+   
     <nav class="navbar navbar-expand-md fixed-top">
-    <a class="navbar-brand logo" href="index.html"><i class="fas fa-cocktail" aria-hidden="true"></i>Cadillac Lounge</a>
-
-    <!-- Changed the toggler icon to light by navbar-dark attribute / Stack Overflow -->
+    <a class="navbar-brand logo" href="#home"><i class="fas fa-cocktail" aria-hidden="true"></i>Cadillac Lounge</a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class=" navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav navbar-brand ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -45,7 +41,7 @@
     </nav>
 </header>
 <main>
-    <section>
+    <section id="home">
 
 <!-- Hero image -->
 
@@ -232,7 +228,7 @@
             <h1>Contact Us</h1>
          </div>
                 <div class="jumbotron">
-                    <form action="#" target="_blank" method="post">
+                    <form>
                         <label for="fname">First Name:</label>
                         <input type="text" id="fname" name="fname" placeholder="Your First Name"  required>
                         <label for="lname">Last Name:</label>
@@ -244,7 +240,7 @@
                         <textarea name="message" style="height:150px" placeholder="Place your message here.."></textarea>
                         <div>
                         <input aria-label="reset" type="reset" id="reset-btn">
-                        <input aria-label="submit" type="submit" value="Send" id="submit-btn">
+                        <button aria-hidden="true" type="button"  id="submit-btn">Submit</button>
                         </div>
                     </form>
                 </div>

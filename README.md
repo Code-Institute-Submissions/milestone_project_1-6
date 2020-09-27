@@ -83,6 +83,7 @@ The center positioned jumbotron have a short but clear message of web site conte
  **Contact** **us** section consists of a contact form with a footer below, containing the contact information and social links.
  If the input fields is not correctly filled out a notification will inform the user and let the user know which fields is 
  required to be able to submit.
+ Notice - the submit button is not active since there is no path to send the form
 
 ### Future implements
 Future implementations to event section would be an image gallery of the artist/artists when mouse-over the image and a clickable music sample.
@@ -100,7 +101,12 @@ feed back  and ratings of the bar and events as a slide show or carousel.
 * [Am I Responsive](http://ami.responsivedesign.is/)
 ## Testing
 -------------
-W3C CSS-Validationtool - Result - no error Found
+* The web page is tested and viewed in Google Chrome, Safari, Microsoft Edge and Mozilla Firefox by myself on a MacBook Pro 13" with no issues. 
+A test was also performed by family and friends on multiple devices and screen sizes. Buttons and links tested, and opens in a new browser window, with no issues.
+ * CSS and HTML validated code by W3C Validating tool and Free Formatter HTML validator, with result - no errors.
+ * Responsive behavior in all screen sizes tested at [Am I Responsive]().
+ * [Google Mobile Friendly](https://search.google.com/test/mobile-friendly?id=Oh2qseth3K4MH9EaEQgGNg) test.
+ * Web site
 
 ## Deployment
 -------------
