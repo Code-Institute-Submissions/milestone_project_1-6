@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Yellowtail&display=swap');
 
+@media screen and (max-width: 320px) {
+
+body {
+    width: 102%;
+}
+
+}
+
 * {
     margin: 0;
     border: 0;
@@ -304,7 +312,7 @@ textarea {
 
  .social-links i {
     color: #fff;
-    padding-left: 1em;
+    padding-left: 1.em;
     padding-right: 1em;
     padding-bottom: 1em;
  }

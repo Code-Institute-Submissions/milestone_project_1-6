@@ -59,20 +59,35 @@ scroll further down the pages to the contact information provided in the footer.
  area (performance gear, booking schedule and so on). I navigate the web page by using the navbar and go to
  the contact page. I fill out the form or look in the footer, directly below, for additional contact information.
 
- 
+ ### Design
+ The color scheme is based on the landing site image. The structural design and typography is chosen to give a modern,
+ clean, yet a sense of the 1950's era, which is also demonstrated in the logo typography.
 
 ## Features
 --------------
-
 I want to present a clean and easy to navigate, mobile first web site, which scrolls up and down to keep the mobile user 
 experience in all screen sizes. My aim is that the user shall find what they seek within three actions (click on a button, link..).
 
 
 ### Existing Features
+**Home** **page** have a fixed to top navbar with links to all pages for easy access to the whole web site. The links have a hover effect 
+as an interaction feedback to the user. The navigation dropdown menu is not self closing on smaller devices, and is a future improvement for me to make.
+The center positioned jumbotron have a short but clear message of web site content.
+
+**About** **us** page is divided into three headlines (the bar, jam session and events) to present what activities to expect. To ease the decision process
+ and to promote an action to take the next step, two links is provided in the text - contact and event.
+
+ **Event** **page** is a textual as well as an imagery presentation of the  up coming music sessions. A button with a link to an 
+ external ticket agency is provided. Additional information about the artist and their music is supplied by a link to Spotify. 
+
+ **Contact** **us** section consists of a contact form with a footer below, containing the contact information and social links.
+ If the input fields is not correctly filled out a notification will inform the user and let the user know which fields is 
+ required to be able to submit.
 
 ### Future implements
-I would like to expand the web site with a photo gallery and increase user interaction with the possibility to give 
-feed back  and ratings off the bar and the events.
+Future implementations to event section would be an image gallery of the artist/artists when mouse-over the image and a clickable music sample.
+Futher I would like to expand the web site with a photo gallery page and increase user interaction with the possibility to give 
+feed back  and ratings of the bar and events as a slide show or carousel.
 ## Technologies used
 --------------
 * [Balsamiq Wireframes](/wireframes/hp_mp1_wireframe.pdf)
