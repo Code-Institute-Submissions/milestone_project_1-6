@@ -16,7 +16,7 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    /*background-color: rgb(248,247,248);*/
+    background-color: rgb(248,247,248);
 }
 
 /* ---------------- Hero Image and Jumbotron ---------------- */
@@ -25,9 +25,6 @@ body {
     background: url("../images/hero_image.jpg") no-repeat center center fixed;
     height: 85em;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 }
 
 .jumbotron {
@@ -39,6 +36,9 @@ body {
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 200px;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .jumbotron h1 {
@@ -54,62 +54,6 @@ body {
     text-transform: capitalize;
     text-align: center;
 }
-
-.about-us-page h1 {
-    font-size: 42px;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-bottom: 0.5em;
-}
-
-.about-us-page h2 {
-    font-size: 28px;
-}
-
-.about-us-page h3 {
-    letter-spacing: 2px;
-    padding-top: 0.5em;
-}
-
-.event-page h1 {
-    font-size: 42px;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    padding-bottom: 0.5em;
-}
-
-.event-page h2 {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 1em;
-}
-
-.contact-header h1 {
-    font-size: 42px;
-    font-weight: 300;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 0.5em;
-    color: #474747;
-    letter-spacing: 2px;
-    padding-top: 5em;
-}
-
-#h2-week {    
-    font-size: 28px;
-    text-align: center;
-    padding-bottom: 2em;
-}
-
-.footer-wrapper p {
-    font-size: 16px;
-    letter-spacing: 2px;
-} 
 
 /* ----------------  Navbar ---------------- */
 
@@ -136,8 +80,6 @@ body {
 .nav-item a:hover, .logo:hover {
     color: rgb(197, 191, 195);
 }
-
-
 
 /* ---------------- About Us ---------------- */
 
@@ -179,6 +121,23 @@ body {
     color: rgb(204,102,0);
 }
 
+.about-us-page h1 {
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+}
+
+.about-us-page h2 {
+    font-size: 28px;
+}
+
+.about-us-page h3 {
+    letter-spacing: 2px;
+    padding-top: 0.5em;
+}
+
 /* ----------------  Events ---------------- */
 
 .event-page {
@@ -192,6 +151,23 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+}
+
+.event-page h1 {
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+}
+
+.event-page h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 .event-box-p {
@@ -240,7 +216,7 @@ img {
 
 /*---------------- Contact Page ---------------- */
 
-.jumbotron {
+.contact-box {
     max-width: 720px;
     min-width: 275px;
     display: block;
@@ -297,10 +273,26 @@ textarea {
     color: #fff;
 }
 
-
 #submit-btn:hover {
     background-color:rgb(207, 156, 105);
     color: #fff;
+}
+
+.contact-header h1 {
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: #474747;
+    letter-spacing: 2px;
+    padding-top: 5em;
+}
+
+#h2-week {    
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 2em;
 }
 
  /* ---------------- Footer ---------------- */
@@ -312,6 +304,11 @@ textarea {
     text-align: center;
     width: 100%;
  }
+
+ .footer-wrapper p {
+    font-size: 16px;
+    letter-spacing: 2px;
+} 
 
  .adress {
     padding-top: 1em;
