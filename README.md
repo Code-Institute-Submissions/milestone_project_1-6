@@ -135,15 +135,27 @@ feed back  and ratings of the bar/events in the form of a slide show or carousel
 
 ## Deployment
 -------------
+Following steps were taken to deploy to GitHub Pages:
+1.  Logged in to my GitHUb account and selected the reository to deploy.
+2.  Locate the 'Settings' button in the meny bar above the repository and scroll down to 'GitHub Pages'.
+3.  In the drop-down meny directly beneath 'Source' select 'master branch'.
+4.  The page will refresh automatically.
+5.  I find the deployed link in the repositorys main 'GitHub Pages'section.
+
+I follow these steps to fork the repository, if I need to update or make changes to the repository:
+1.  Login to my GitHub pages
+2.  In the repository page I locate the 'Fork' button in the top right corner of the page, above 'Settings'.
+3.  Clicking the "Fork' button gives me a copy of the repository in my GitHub account.
+
 ## Credits
 -------------
 1. **Code**
     * Bootstrap4 navbar with toggler and grid system to receive a responsive web page.
     * Stack Overflow 
-    * Used notes from previous questions placed on positioning navitems to the right with the ml-auto attribute
-    * Troubleshooting bug in non self-closing navbar toggler in small devices. No result.
-    * Troubleshooting why toggler/hamburger dissapeared when changing navbar-light to navbar-dark.
-    * I want to credit the help and assistance of Daniel Svensson (family member) with a bug issue in landing site jumbotron due to Autoprefixer extension
+        *   Used notes from previous questions placed on positioning navitems to the right with the ml-auto attribute
+        *   Troubleshooting bug in non self-closing navbar toggler in small devices. No result.
+        *   Troubleshooting why toggler/hamburger dissapeared when changing navbar-light to navbar-dark.
+        *   I want to credit the help and assistance of Daniel Svensson (family member) with a bug issue in landing site jumbotron due to Autoprefixer extension
 in combination with 'display:flex'.
 
 2. **General source of information and main source of assistance**
@@ -153,20 +165,14 @@ in combination with 'display:flex'.
     * Anna Greaves documentation on Grid System.
     * W3School
     * Bootstrap4 Documents
-    * Fashing - textual content to event page.
-
-3. **Digital**
-    * Pixabay, hero image on landing site.
-    * Pexels, image of male pianist
-
-    All other images where purchased from Shutterstock by me.
+    * Fasching - textual content to event page.
 
 ### Competition analysis and businesses (mobile device)
-* [Fasching](https://www.fashing.se)
+* [Fasching](https://www.fasching.se/?date=0&artist=all&view=default&c=1)
 * [Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
 * [Stampen, Sweden](https://www.stampen.se)
 * [U Street Music Hall, USA](https://www.ustreetmusichall.com)
-* [The Iridium, USA](www.https://www.theiridium.com)
+* [The Iridium, USA](https://www.theiridium.com/)
 * [The Mine Music Hall, USA](https://www.theminemusichall.com)
 
 
@@ -175,13 +181,15 @@ Content is written by myself, with the exception of the text about the musicians
  is copied and translated from the Fasching web site. The idea of the bar being a sponsor to a 
 festival came from The Spotted Cat Music Club.
 ### Media
-Numerous images is supplied from free image providers such as Pexels, Burst and Pixabay, but I also purchased
- several images from Shutterstock.
+* Pixabay, hero image on landing site.
+* Pexels, image of male pianist.
+
+All other images where purchased from Shutterstock by myself.
 ### Acknowledgements
 * There is white space in the small mobile devices (280px) on the right side.
 * The textarea and images in the event page is not properly aligned at some points at certain screen widths.
 * Research made for this Milestone Project consists of visiting similar businesses web pages, reading in on demographics of customer and customer path to purchase.
-* Oluwafemi Medale mentor
+* My mentor.
 * Family members for being there and testing the project on numerous ways and platforms.
 * Last, but not the least - my partner in life for being so supportive and understanding.
 
