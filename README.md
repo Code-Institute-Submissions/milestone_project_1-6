@@ -56,7 +56,8 @@ demographics.
 ## Features
 --------------
 I want to present a clean and easy to navigate, mobile first responsive web site, which scrolls up and down to keep the mobile user 
-experience in all screen sizes. My aim is that the user shall find what they seek within three actions.
+experience in all screen sizes. My aim is that the user shall find what they seek within three actions. 
+Accessability have been taken into account in design and to meet the criteria for screen readers.
 
 
 ### Existing Features
@@ -120,22 +121,54 @@ feed back  and ratings of the bar/events in the form of a slide show or carousel
 
 
 **Other testing**
-* The web page is tested and viewed in Google Chrome, Safari, Microsoft Edge and Mozilla Firefox by myself on a MacBook Pro 13" with no issues. 
-* A test was also performed by family and friends on multiple devices and screen sizes. Buttons and links tested, and opens in a new browser window, with no issues.
- * CSS and HTML validated code by W3C Validating tool and Free Formatter HTML validator, with no errors.
- * Responsive behavior in all screen sizes tested at [Am I Responsive](http://ami.responsivedesign.is/).
- * [Google Mobile Friendly](https://search.google.com/test/mobile-friendly?id=Oh2qseth3K4MH9EaEQgGNg) test.
- * Web site
+* The web page is tested and viewed in Google Chrome, Safari, Microsoft Edge and Mozilla Firefox by myself on a MacBook Pro 13" with no issues.
+* Links is tested  by myself and direct you to the desired web page and opens in a new tab.
+* The submit button in contact form is active, but will direct to an external page with 'Error Respons'. According to Code Institute this is 
+ within acceptance for a Milestone Project 1, since the students have not studied the programming language required for this function to work.
+* A test was also performed by family and friends on multiple devices and screen sizes with no issues.
+* CSS and HTML validated code by W3C Validating tool and Free Formatter HTML validator, with no errors.
+* Responsive behavior in all screen sizes tested at [Am I Responsive](http://ami.responsivedesign.is/).
+* [Google Mobile Friendly](https://search.google.com/test/mobile-friendly?id=Oh2qseth3K4MH9EaEQgGNg) test.
+* [GTmetrix](https://gtmetrix.com/reports/8000-e2873567-3045-4d36-ad31-b730b594f3cf.ws-eu01.gitpod.io/o6Y1DCk9) to test speed and loading time.
+* [WebFx](https://www.webfx.com/tools/read-able/check.php?tab=Test+By+Url&uri=https%3A%2F%2F8000-e2873567-3045-4d36-ad31-b730b594f3cf.ws-eu01.gitpod.io%2F%23home) readability test.
+* [WebAim](https://webaim.org/resources/contrastchecker/) contrast checker with result 4.5 contrast-ratio as the lowest result.
 
 ## Deployment
 -------------
 ## Credits
 -------------
-* Code Institute Video tutorials
-* Code Institute Slack Channel
-* W3School
-* Bootstrap 
-* Fashing
+1. **Code**
+    * Bootstrap4 navbar with toggler and grid system to receive a responsive web page.
+    * Stack Overflow 
+    * Used notes from previous questions placed on positioning navitems to the right with the ml-auto attribute
+    * Troubleshooting bug in non self-closing navbar toggler in small devices. No result.
+    * Troubleshooting why toggler/hamburger dissapeared when changing navbar-light to navbar-dark.
+    * I want to credit the help and assistance of Daniel Svensson (family member) with a bug issue in landing site jumbotron due to Autoprefixer extension
+in combination with 'display:flex'.
+
+2. **General source of information and main source of assistance**
+
+    * Code Institute Video tutorials
+    * Code Institute Slack Channel
+    * Anna Greaves documentation on Grid System.
+    * W3School
+    * Bootstrap4 Documents
+    * Fashing - textual content to event page.
+
+3. **Digital**
+    * Pixabay, hero image on landing site.
+    * Pexels, image of male pianist
+
+    All other images where purchased from Shutterstock by me.
+
+### Competition analysis and businesses (mobile device)
+* [Fasching](https://www.fashing.se)
+* [Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
+* [Stampen, Sweden](https://www.stampen.se)
+* [U Street Music Hall, USA](https://www.ustreetmusichall.com)
+* [The Iridium, USA](www.https://www.theiridium.com)
+* [The Mine Music Hall, USA](https://www.theminemusichall.com)
+
 
 ### Content
 Content is written by myself, with the exception of the text about the musicians in the 'Event' page, which 
@@ -145,24 +178,13 @@ festival came from The Spotted Cat Music Club.
 Numerous images is supplied from free image providers such as Pexels, Burst and Pixabay, but I also purchased
  several images from Shutterstock.
 ### Acknowledgements
-* The submit button is active, but will direct to an external page with 'Error Respons'. According to Code Institute this is 
- within acceptance for a Milestone Project 1, since the students have not studied the programming language required for this function to work.
 * There is white space in the small mobile devices (280px) on the right side.
 * The textarea and images in the event page is not properly aligned at some points at certain screen widths.
-* I want to credit the help and assistance of Daniel Svensson (family member) with a bug issue in landing site jumbotron due to Autoprefixer extension
-in combination with 'display:flex'.
 * Research made for this Milestone Project consists of visiting similar businesses web pages, reading in on demographics of customer and customer path to purchase.
 * Oluwafemi Medale mentor
 * Family members for being there and testing the project on numerous ways and platforms.
 * Last, but not the least - my partner in life for being so supportive and understanding.
 
-### Competition analysis and businesses (mobile device)
-* [Fasching](https://www.fashing.se)
-* [Spotted Cat Music Club](https://www.spottedcatmusicclub.com)
-* [Stampen, Sweden](https://www.stampen.se)
-* [U Street Music Hall, USA](https://www.ustreetmusichall.com)
-* [The Iridium, USA](www.https://www.theiridium.com)
-* [The Mine Music Hall, USA](https://www.theminemusichall.com)
 
 -----
 
